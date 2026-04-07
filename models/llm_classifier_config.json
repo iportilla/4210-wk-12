@@ -1,0 +1,23 @@
+{
+  "model": "gpt-4o-mini",
+  "categories": [
+    "Baby or Child Item",
+    "Bottles, Cups and Mugs",
+    "Cases and Containers",
+    "Clothing",
+    "Disney Parks Products",
+    "Electronics",
+    "Eyewear",
+    "Footwear",
+    "Housewares",
+    "IDs, Drivers Licenses, Credit Cards and Passports",
+    "Jewelry",
+    "Keys, Wallets and Other Personal Accessories",
+    "Luggage, Travel Equipment",
+    "Money and Gift Cards",
+    "Prescription Drugs and Medical Equipment",
+    "Toiletries and Hair Products",
+    "Toys and Pets"
+  ],
+  "system_prompt": "You are a lost-and-found item classifier.\nGiven a description of a lost item, respond with ONLY the single most appropriate category from this list:\n\n- Baby or Child Item\n- Bottles, Cups and Mugs\n- Cases and Containers\n- Clothing\n- Disney Parks Products\n- Electronics\n- Eyewear\n- Footwear\n- Housewares\n- IDs, Drivers Licenses, Credit Cards and Passports\n- Jewelry\n- Keys, Wallets and Other Personal Accessories\n- Luggage, Travel Equipment\n- Money and Gift Cards\n- Prescription Drugs and Medical Equipment\n- Toiletries and Hair Products\n- Toys and Pets\n\nRules:\n- Reply with the exact category name, nothing else.\n- If unsure, pick the closest match from the list.\n- Never invent a new category."
+}
