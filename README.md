@@ -92,10 +92,6 @@ graph LR
     LR --> PROB[Class Probabilities]
 ```
 
-**Run:**
-```bash
-python3 classifier.py
-```
 
 ---
 
@@ -158,7 +154,7 @@ pipeline.predict(["black leather wallet"])
 
 ```bash
 # Clone the repo
-git clone https://github.com/iportilla/4210-wk12.git
+
 cd 4210-wk12
 
 # Create and activate virtual environment
